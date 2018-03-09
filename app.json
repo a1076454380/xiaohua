@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#8080C0",
+    "navigationBarTitleText": "笑话大全",
+    "navigationBarTextStyle":"white"
+  }
+}

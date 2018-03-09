@@ -1,0 +1,18 @@
+<loading hidden="{{!loading}}">
+    拼命加载中
+</loading>
+<view class="wrapper">
+  <view class='wrapper-item' wx:for="{{joke}}" wx:key="index">
+      <view class='main'>
+          {{item.text}}
+      </view>
+      <view class='data'>
+          <view>
+              {{item.title}}
+          </view> 
+          <view>
+              {{item.ct}}
+          </view> 
+      </view> 
+  </view>
+</view>
