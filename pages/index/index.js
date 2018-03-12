@@ -15,7 +15,7 @@ Page({
   onLoad: function (options) {
     var that = this    
     wx.request({
-      url: 'http://route.showapi.com/341-1?showapi_appid=48591&showapi_sign=62f2d8f1a027431f823d43f7fc675b42&maxResult=10&page='+this.data.page,
+      url: 'https://route.showapi.com/341-1?showapi_appid=48591&showapi_sign=62f2d8f1a027431f823d43f7fc675b42&maxResult=10&page='+this.data.page,
       data:{},
       header:{
         "ContentType":'json'
@@ -40,7 +40,7 @@ Page({
     var that = this
    
     wx.request({
-      url: 'http://route.showapi.com/341-1?showapi_appid=48591&showapi_sign=62f2d8f1a027431f823d43f7fc675b42&maxResult=10&page=' + this.data.page,
+      url: 'https://route.showapi.com/341-1?showapi_appid=48591&showapi_sign=62f2d8f1a027431f823d43f7fc675b42&maxResult=10&page=' + this.data.page,
       data: {},
       header: {
         "ContentType": 'json'
